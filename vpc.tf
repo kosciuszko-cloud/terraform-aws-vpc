@@ -96,7 +96,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 80
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -107,7 +107,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 443
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -118,7 +118,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 65535
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     }
   ]
 
@@ -132,7 +132,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 80
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -143,7 +143,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 443
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -154,7 +154,7 @@ resource "aws_network_acl" "public_nacl" {
       to_port    = 65535
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     }
   ]
 
@@ -231,7 +231,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 80
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -242,7 +242,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 443
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -256,7 +256,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 65535
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     }
   ]
 
@@ -273,7 +273,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 80
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -287,7 +287,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 443
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     },
     {
       protocol   = "6"
@@ -298,7 +298,7 @@ resource "aws_network_acl" "private_nacl" {
       to_port    = 65535
       icmp_code  = 0
       icmp_type  = 0
-      # ipv6_cidr_block = ""
+      ipv6_cidr_block = null
     }
   ]
 
